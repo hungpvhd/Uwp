@@ -9,26 +9,26 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid>
         <Pivot>
-            <Pivot.Title>
-                <TextBlock Text="Danh sach bai hat"/>
-            </Pivot.Title>
             <PivotItem Header="List Song">
                 <Grid>
                     <ListView x:ConnectionId='3'                                              x:Name="MenuList">
                         <ListView.ItemTemplate>
                             <DataTemplate                         >
                                 <StackPanel x:ConnectionId='4' Padding="12" Orientation="Horizontal" Tag="{Binding}"                                                                     >
-                                    <Image x:ConnectionId='5' Width="100"                            />
+                                    <Ellipse Height="88" Width="88">
+                                        <Ellipse.Fill>
+                                            <ImageBrush x:ConnectionId='7'                                 />
+                                        </Ellipse.Fill>
+                                    </Ellipse>
                                     <StackPanel Margin="24,12,0,0">
-                                        <TextBlock x:ConnectionId='6'                      VerticalAlignment="Center" 
+                                        <TextBlock x:ConnectionId='5'                      VerticalAlignment="Center" 
                                                Style="{ThemeResource BaseTextBlockStyle}" 
                                                Foreground="{ThemeResource SystemControlPageTextBaseHighBrush}"
                                                 Margin="0,0,0,0"/>
-                                        <TextBlock x:ConnectionId='7'                        VerticalAlignment="Center"                                                
+                                        <TextBlock x:ConnectionId='6'                        VerticalAlignment="Center"                                                
                                                Foreground="{ThemeResource SystemControlPageTextBaseHighBrush}" 
                                                Margin="0,7,0,0"/>
                                     </StackPanel>
-
                                 </StackPanel>
                             </DataTemplate>
                         </ListView.ItemTemplate>

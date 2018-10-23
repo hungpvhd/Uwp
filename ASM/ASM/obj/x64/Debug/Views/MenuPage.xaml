@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="ASM.Views.MenuPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -13,7 +13,7 @@
             <VisualStateGroup>
                 <VisualState>
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="{x:Bind NavView.CompactModeThresholdWidth}" />
+                        <AdaptiveTrigger x:ConnectionId='2'                                                             />
                     </VisualState.StateTriggers>
 
                     <VisualState.Setters>
@@ -23,17 +23,17 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
 
-        <NavigationView x:Name="NavView"
-                    ItemInvoked="NavView_ItemInvoked"
+        <NavigationView x:ConnectionId='3' x:Name="NavView"
+                                                     
                     IsSettingsVisible="True"
-                    Loaded="NavView_Loaded"
-                    BackRequested="NavView_BackRequested">
+                                           
+                                                         >
             <NavigationView.Background>
                 <ImageBrush ImageSource="/Assets/45533298-pastel-multi-color-gradient-vector-background-simple-form-and-blend-of-color-spaces-as-contemporary-.jpg"/>
             </NavigationView.Background>
 
             <NavigationView.MenuItems>
-                <NavigationViewItem Content="Home" x:Name="home" Tag="home">
+                <NavigationViewItem x:ConnectionId='4' Content="Home" x:Name="home" Tag="home">
                     <NavigationViewItem.Icon>
                         <FontIcon Glyph="&#xE10F;"/>
                     </NavigationViewItem.Icon>
@@ -47,7 +47,7 @@
             </NavigationView.MenuItems>
 
             <NavigationView.AutoSuggestBox>
-                <AutoSuggestBox x:Name="ASB" QueryIcon="Find"/>
+                <AutoSuggestBox x:ConnectionId='5' x:Name="ASB" QueryIcon="Find"/>
             </NavigationView.AutoSuggestBox>
 
             <NavigationView.HeaderTemplate>
@@ -73,8 +73,9 @@
                 </DataTemplate>
             </NavigationView.HeaderTemplate>
 
-            <Frame x:Name="ContentFrame" Margin="24"/>
+            <Frame x:ConnectionId='7' x:Name="ContentFrame" Margin="24"/>
 
         </NavigationView>
     </Grid>
 </Page>
+

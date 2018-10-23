@@ -36,7 +36,8 @@ namespace ASM.Views
             ("add", typeof(SongForm)),
             ("video", typeof(SignUp)),
             ("playList", typeof(ListViewDemo)),
-            ("home", typeof(MainPage))
+            ("home", typeof(MainPage)),
+            ("mySong", typeof(MySong)),
         };
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)

@@ -70,3 +70,8 @@ C:\Users\HoANg HuNG\Desktop\ASM\ASM\obj\x64\Debug\Views\MenuPage.g.cs
 C:\Users\HoANg HuNG\Desktop\ASM\ASM\obj\x64\Debug\Views\MenuPage.xaml
 C:\Users\HoANg HuNG\Desktop\ASM\ASM\obj\x64\Debug\Views\MenuPage.xbf
 C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\MenuPage.xbf
+C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\MySong.xbf
+C:\Users\HoANg HuNG\Desktop\ASM\ASM\obj\x64\Debug\Views\MySong.g.i.cs
+C:\Users\HoANg HuNG\Desktop\ASM\ASM\obj\x64\Debug\Views\MySong.g.cs
+C:\Users\HoANg HuNG\Desktop\ASM\ASM\obj\x64\Debug\Views\MySong.xaml
+C:\Users\HoANg HuNG\Desktop\ASM\ASM\obj\x64\Debug\Views\MySong.xbf

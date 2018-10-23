@@ -112,6 +112,9 @@
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\MenuPage.xbf">
       <PackagePath>Views\MenuPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\MySong.xbf">
+      <PackagePath>Views\MySong.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\SignUp.xbf">
       <PackagePath>Views\SignUp.xbf</PackagePath>
     </AppxPackagedFile>

@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-23T16:19:41.874</Modified>
+      <Modified>2018-10-23T17:10:33.241</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\ASM.exe">
       <PackagePath>entrypoint\ASM.exe</PackagePath>
-      <Modified>2018-10-23T16:19:41.293</Modified>
+      <Modified>2018-10-23T17:10:32.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\.nuget\packages\microsoft.data.sqlite\1.1.1\lib\netstandard1.3\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -127,35 +127,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\ASM.xr.xml">
       <PackagePath>ASM.xr.xml</PackagePath>
-      <Modified>2018-10-23T16:18:40.307</Modified>
+      <Modified>2018-10-23T17:06:40.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-23T16:19:40.988</Modified>
+      <Modified>2018-10-23T17:10:32.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Data\Openfile.xbf">
       <PackagePath>Data\Openfile.xbf</PackagePath>
-      <Modified>2018-10-23T16:19:40.989</Modified>
+      <Modified>2018-10-23T17:10:32.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-23T16:19:40.990</Modified>
+      <Modified>2018-10-23T17:10:32.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\ListViewDemo.xbf">
       <PackagePath>Views\ListViewDemo.xbf</PackagePath>
-      <Modified>2018-10-23T16:19:40.990</Modified>
+      <Modified>2018-10-23T17:10:32.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\MenuPage.xbf">
       <PackagePath>Views\MenuPage.xbf</PackagePath>
-      <Modified>2018-10-23T16:19:40.991</Modified>
+      <Modified>2018-10-23T17:10:32.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\MySong.xbf">
+      <PackagePath>Views\MySong.xbf</PackagePath>
+      <Modified>2018-10-23T17:10:32.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\SignUp.xbf">
       <PackagePath>Views\SignUp.xbf</PackagePath>
-      <Modified>2018-10-23T16:19:40.991</Modified>
+      <Modified>2018-10-23T17:10:32.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\SongForm.xbf">
       <PackagePath>Views\SongForm.xbf</PackagePath>
-      <Modified>2018-10-23T16:19:40.992</Modified>
+      <Modified>2018-10-23T17:10:32.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -164,11 +168,11 @@
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-23T14:53:42.083</Modified>
+      <Modified>2018-10-23T17:03:39.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Core\ASM.exe">
       <PackagePath>ASM.exe</PackagePath>
-      <Modified>2018-10-23T16:19:41.867</Modified>
+      <Modified>2018-10-23T17:10:33.233</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

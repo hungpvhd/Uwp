@@ -1,7 +1,5 @@
-﻿using ASM.Data;
-using ASM.Entity;
+﻿using ASM.Entity;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -30,19 +28,13 @@ namespace ASM.Views
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class ListViewDemo : Page
+    public sealed partial class MySong : Page
     {
-        private static string SONG_API_URL = "https://2-dot-backup-server-002.appspot.com/_api/v2/songs";
+        private static string GetMySongAPI = "https://2-dot-backup-server-002.appspot.com/_api/v2/songs/get-mine";
         private bool isPlaying = false;
         private ObservableCollection<Song> listSong;
 
         internal ObservableCollection<Song> ListSong { get => listSong; set => listSong = value; }
-   
-        public ListViewDemo()
-         {
-            GetSongs();
-            this.InitializeComponent();
-         }
 
         private async void GetSongs()
         {
@@ -53,7 +45,7 @@ namespace ASM.Views
             var Content = await FileIO.ReadTextAsync(file);
             TokenResponse token = JsonConvert.DeserializeObject<TokenResponse>(Content);
             httpClient.DefaultRequestHeaders.Add("Authorization", "Basic " + token.token);
-            HttpResponseMessage responseMessage = httpClient.GetAsync(SONG_API_URL).Result;
+            HttpResponseMessage responseMessage = httpClient.GetAsync(GetMySongAPI).Result;
             string content = responseMessage.Content.ReadAsStringAsync().Result;
             var responseContent = responseMessage.Content.ReadAsStringAsync().Result;
             Debug.WriteLine(file);
@@ -78,6 +70,20 @@ namespace ASM.Views
                 }
             }
         }
+        public MySong()
+        {
+            GetSongs();
+            this.ListSong.Add(new Song()
+            {
+                name = "Hello Viet Nam",
+                singer = "Unknow",
+                thumbnail = "https://file.tinnhac.com/resize/600x-/music/2017/07/04/19554480101556946929-b89c.jpg",
+                link = "https://c1-ex-swe.nixcdn.com/NhacCuaTui935/XinChaoVietNamViolinCover-JmiKo-4736247.mp3?st=HjtU7F5zduJ_7vPYQDCB9g&e=1540060130&t=1539973736378"
+            });
+            
+
+            this.InitializeComponent();
+        }
 
         private void StackPanel_Tapped(object sender, TappedRoutedEventArgs e)
         {
@@ -100,5 +106,4 @@ namespace ASM.Views
 
         }
     }
-
-  }
+}

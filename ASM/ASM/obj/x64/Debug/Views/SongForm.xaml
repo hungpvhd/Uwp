@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="ASM.Views.SongForm"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ASM.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    >
+
+    <ScrollViewer>
+        <StackPanel x:ConnectionId='2' HorizontalAlignment="Center" x:Name="ParentStackPanel" Width="1506">
+            <RelativePanel HorizontalAlignment="Center">
+                <TextBlock x:ConnectionId='11' x:Name="Header_" FontSize="40" FontWeight="Bold" Text="Add Song"></TextBlock>
+                <TextBlock x:ConnectionId='12' RelativePanel.Below="Header_" x:Name="error_Info" Foreground="Red"/>
+            </RelativePanel>
+            <TextBox x:ConnectionId='3' x:Name="Name" Margin="0, 30, 0, 0" Header="Name" Text="" VerticalAlignment="Top" Width="293"/>
+            <TextBox x:ConnectionId='4' AcceptsReturn="True" x:Name="Description" Margin="0, 30, 0, 0" Header="Description" VerticalAlignment="Top" Width="293"/>
+            <TextBox x:ConnectionId='5' x:Name="Singer" Margin="0, 30, 0, 0" Header="Singer" Text="" VerticalAlignment="Top" Width="293"/>
+            <TextBox x:ConnectionId='6' x:Name="Author" Margin="0, 30, 0, 0" Header="Author" Text="" VerticalAlignment="Top" Width="293"/>
+            <TextBox x:ConnectionId='7' x:Name="Link" Margin="0, 30, 0, 0" Header="Link" Text="" VerticalAlignment="Top" Width="293"/>
+            <TextBox x:ConnectionId='8' x:Name="Thumbnail" Margin="0, 30, 0, 0" Header="Thumbnail" Text="" VerticalAlignment="Top" Width="293"/>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Button x:ConnectionId='9' x:Name="BtnSignup" Margin="0, 30, 20, 0" Content="Sign Up"               />
+                <Button x:ConnectionId='10' x:Name="BtnReset" Margin="5, 30, 0, 0" Content="Reset"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
+
