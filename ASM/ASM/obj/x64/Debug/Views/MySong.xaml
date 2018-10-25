@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Pivot Background="{ThemeResource SystemControlChromeHighAcrylicElementMediumBrush}">
+        <Pivot>
             <PivotItem Header="My Song">
                 <Grid>
                     <ListView x:ConnectionId='3'                                              x:Name="MenuList">

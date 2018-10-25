@@ -96,11 +96,20 @@ namespace ASM
             //validate cl
             if (this.Email.Text == "")
             {
-                this.error_UserName.Text = "Please enter introduction"; 
+                this.error_UserName.Text = "Please enter introduction";
+                this.email.Visibility = Visibility.Collapsed;
             }
+            else
+            {
+                this.email.Visibility = Visibility.Visible;
+            };
             if (this.Password.ToString() == "")
             {
                 this.error_Password.Text = "Please enter introduction";
+                this.password.Visibility = Visibility.Collapsed;
+            }else
+            {
+                this.password.Visibility = Visibility.Visible;
             }
 
         }

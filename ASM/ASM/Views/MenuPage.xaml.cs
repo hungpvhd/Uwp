@@ -48,7 +48,7 @@ namespace ASM.Views
             ContentFrame.Navigated += On_Navigated;
 
             // NavView doesn't load any page by default: you need to specify it
-            NavView_Navigate("add");
+            NavView_Navigate("playList");
 
             // Add keyboard accelerators for backwards navigation
             var goBack = new KeyboardAccelerator { Key = VirtualKey.GoBack };

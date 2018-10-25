@@ -44,7 +44,6 @@
       <RootProperty Name="Orientation" />
       <RootProperty Name="Tag" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Width" />
       <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
@@ -61,7 +60,6 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="Visibility" />
       <RootProperty Name="Style" />
       <RootProperty Name="TextWrapping" />
       <RootEvent Name="Tapped" />
@@ -91,12 +89,10 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="AcceptsReturn" />
     </RootType>
     <RootType FullName="ASM.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
       <RootProperty Name="Items" />
-      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
       <RootProperty Name="AreTransportControlsEnabled" />

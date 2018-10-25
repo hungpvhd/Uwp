@@ -16,12 +16,12 @@
         <RelativePanel HorizontalAlignment="Center">
             <TextBox x:ConnectionId='7' x:Name="Email" FontSize="20" HorizontalAlignment="Left" Header="Email" Text="" VerticalAlignment="Top" Width="719"/>
             <TextBlock x:ConnectionId='8' RelativePanel.Below="Email" x:Name="error_UserName" Foreground="Red"/>
-            <TextBlock x:ConnectionId='9' RelativePanel.Below="error_UserName" x:Name="email" Foreground="Red" Visibility="Collapsed"/>
+            <TextBlock x:ConnectionId='9' RelativePanel.Below="error_UserName" x:Name="email" Foreground="Red"/>
         </RelativePanel>
         <RelativePanel HorizontalAlignment="Center">
             <TextBlock x:ConnectionId='4' x:Name="error_Password" Foreground="Red" RelativePanel.Below="Password"></TextBlock>
             <PasswordBox x:ConnectionId='5' x:Name="Password" FontSize="20" HorizontalAlignment="Left" Header="Password" VerticalAlignment="Top" Width="719" RenderTransformOrigin="0.488,-0.464"/>
-            <TextBlock x:ConnectionId='6' RelativePanel.Below="Password" x:Name="password" Foreground="Red" Visibility="Collapsed"/>
+            <TextBlock x:ConnectionId='6' RelativePanel.Below="Password" x:Name="password" Foreground="Red"/>
         </RelativePanel>
         <RelativePanel HorizontalAlignment="Center">
             <Button x:ConnectionId='2' Foreground="White" FontSize="20" Content="Sign In" HorizontalAlignment="Left" Margin="-150,0,0,0" VerticalAlignment="Top" Height="54" Width="133" RenderTransformOrigin="1.168,-0.774"                      />

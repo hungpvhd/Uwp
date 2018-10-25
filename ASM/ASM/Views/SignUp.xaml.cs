@@ -120,11 +120,6 @@ namespace ASM.Views
 
         private async void Handle_Signup(object sender, RoutedEventArgs e)
         {
-            Dictionary<String, String> RegisterInfor = new Dictionary<string, string>();
-            RegisterInfor.Add("email", this.Email.Text);
-            RegisterInfor.Add("firstName", this.FirstName.Text);
-            RegisterInfor.Add("lastName", this.LastName.Text);
-
             this.currentMember.firstName = this.FirstName.Text;
             this.currentMember.lastName = this.LastName.Text;
             this.currentMember.email = this.Email.Text;
@@ -133,7 +128,16 @@ namespace ASM.Views
             this.currentMember.phone = this.Phone.Text;
             this.currentMember.address = this.Address.Text;
             this.currentMember.introduction = this.Introduction.Text;
+            validateRegister();
             await ApiHandle.Sign_Up(this.currentMember);
+        }
+
+        private async void validateRegister()
+        {
+            Dictionary<String, String> RegisterInfor = new Dictionary<string, string>();
+            RegisterInfor.Add("email", this.Email.Text);
+            RegisterInfor.Add("firstName", this.FirstName.Text);
+            RegisterInfor.Add("lastName", this.LastName.Text);
             HttpClient httpClient = new HttpClient();
             StringContent content = new StringContent(JsonConvert.SerializeObject(RegisterInfor), System.Text.Encoding.UTF8, "application/json");
             var response = httpClient.PostAsync(API_Register, content).Result;
@@ -207,7 +211,6 @@ namespace ASM.Views
 
                 this.error_Phone.Text = "Please enter introduction";
             }
-
         }
 
         //image,cam
@@ -332,6 +335,19 @@ namespace ASM.Views
         private void TapToLogin(object sender, TappedRoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void BtnReset_Click(object sender, RoutedEventArgs e)
+        {
+            this.Email.Text = "";
+            this.Password.Password = "";
+            this.FirstName.Text = "";
+            this.LastName.Text = "";
+            this.ImageUrl.Text = "";
+            this.Introduction.Text = "";
+            this.Address.Text = "";
+            this.Phone.Text = "";
+
         }
     }
 }

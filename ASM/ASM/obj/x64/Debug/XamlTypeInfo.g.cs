@@ -189,7 +189,7 @@ namespace ASM.ASM_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "ASM.Data.Openfile";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -199,8 +199,9 @@ namespace ASM.ASM_XamlTypeInfo
             _typeNameTable[6] = "ASM.Views.MySong";
             _typeNameTable[7] = "ASM.Views.SignUp";
             _typeNameTable[8] = "ASM.Views.SongForm";
+            _typeNameTable[9] = "Object";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::ASM.Data.Openfile);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -210,6 +211,7 @@ namespace ASM.ASM_XamlTypeInfo
             _typeTable[6] = typeof(global::ASM.Views.MySong);
             _typeTable[7] = typeof(global::ASM.Views.SignUp);
             _typeTable[8] = typeof(global::ASM.Views.SongForm);
+            _typeTable[9] = typeof(global::System.Object);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -315,19 +317,39 @@ namespace ASM.ASM_XamlTypeInfo
             case 8:   //  ASM.Views.SongForm
                 userType = new global::ASM.ASM_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_8_SongForm;
+                userType.AddMemberName("RegisterInfor");
                 userType.SetIsLocalType();
                 xamlType = userType;
+                break;
+
+            case 9:   //  Object
+                xamlType = new global::ASM.ASM_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
         }
 
 
+        private object get_0_SongForm_RegisterInfor(object instance)
+        {
+            var that = (global::ASM.Views.SongForm)instance;
+            return that.RegisterInfor;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::ASM.ASM_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::ASM.ASM_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "ASM.Views.SongForm.RegisterInfor":
+                userType = (global::ASM.ASM_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASM.Views.SongForm");
+                xamlMember = new global::ASM.ASM_XamlTypeInfo.XamlMember(this, "RegisterInfor", "Object");
+                xamlMember.Getter = get_0_SongForm_RegisterInfor;
+                xamlMember.SetIsReadOnly();
+                break;
+            }
             return xamlMember;
         }
     }

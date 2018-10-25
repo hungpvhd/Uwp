@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>27fd9ec8-bd2a-4d3b-a6f4-190065719e8a</PackageIdentityName>
     <PackageIdentityPublisher>CN=HoANg HuNG</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\HoANg HuNG\Desktop\ASM\ASM\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>4D14B9AEE1C29FE9F59E45F9FD1EF46C19253FBCA88534B048A31349776B91E8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>27fd9ec8-bd2a-4d3b-a6f4-190065719e8a_1.0.0.0_x64__wspdq1haveyye</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>27fd9ec8-bd2a-4d3b-a6f4-190065719e8a_wspdq1haveyye!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-23T17:10:33.241</Modified>
+      <Modified>2018-10-25T10:55:44.203</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\ASM.exe">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\ASM.exe">
       <PackagePath>entrypoint\ASM.exe</PackagePath>
-      <Modified>2018-10-23T17:10:32.662</Modified>
+      <Modified>2018-10-25T10:55:43.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HoANg HuNG\.nuget\packages\microsoft.data.sqlite\1.1.1\lib\netstandard1.3\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -55,124 +55,124 @@
       <PackagePath>sqlite3.dll</PackagePath>
       <Modified>2016-10-18T14:37:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\12579ed6a3d77a5.jpg">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\12579ed6a3d77a5.jpg">
       <PackagePath>Assets\12579ed6a3d77a5.jpg</PackagePath>
-      <Modified>2018-10-22T16:41:27.415</Modified>
+      <Modified>2018-10-24T16:54:04.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\42936478_585066935243529_5642304180342226944_o.jpg">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\42936478_585066935243529_5642304180342226944_o.jpg">
       <PackagePath>Assets\42936478_585066935243529_5642304180342226944_o.jpg</PackagePath>
-      <Modified>2018-10-22T16:41:09.977</Modified>
+      <Modified>2018-10-24T16:54:04.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\43665198_949821035214895_3005719165731340288_n.jpg">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\43665198_949821035214895_3005719165731340288_n.jpg">
       <PackagePath>Assets\43665198_949821035214895_3005719165731340288_n.jpg</PackagePath>
-      <Modified>2018-10-22T16:45:04.096</Modified>
+      <Modified>2018-10-24T16:54:04.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\45533298-pastel-multi-color-gradient-vector-background-simple-form-and-blend-of-color-spaces-as-contemporary-.jpg">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\45533298-pastel-multi-color-gradient-vector-background-simple-form-and-blend-of-color-spaces-as-contemporary-.jpg">
       <PackagePath>Assets\45533298-pastel-multi-color-gradient-vector-background-simple-form-and-blend-of-color-spaces-as-contemporary-.jpg</PackagePath>
-      <Modified>2018-10-22T16:45:24.167</Modified>
+      <Modified>2018-10-24T16:54:04.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\bulb-light-background-grey.jpg">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\bulb-light-background-grey.jpg">
       <PackagePath>Assets\bulb-light-background-grey.jpg</PackagePath>
-      <Modified>2018-10-04T16:30:02.488</Modified>
+      <Modified>2018-10-24T16:54:04.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\Colorful-Rectangular-Form-Background-1000x750.jpg">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\Colorful-Rectangular-Form-Background-1000x750.jpg">
       <PackagePath>Assets\Colorful-Rectangular-Form-Background-1000x750.jpg</PackagePath>
-      <Modified>2018-10-22T16:45:12.935</Modified>
+      <Modified>2018-10-24T16:54:04.226</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\maxresdefault.jpg">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\maxresdefault.jpg">
       <PackagePath>Assets\maxresdefault.jpg</PackagePath>
-      <Modified>2018-10-04T16:38:37.303</Modified>
+      <Modified>2018-10-24T16:54:04.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\windows8_bg_thumb[1].jpg">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\windows8_bg_thumb[1].jpg">
       <PackagePath>Assets\windows8_bg_thumb[1].jpg</PackagePath>
-      <Modified>2018-10-04T16:26:57.868</Modified>
+      <Modified>2018-10-24T16:54:04.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-10-04T15:46:16.677</Modified>
+      <Modified>2018-10-24T16:54:04.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-10-02T13:53:11.681</Modified>
+      <Modified>2018-10-24T16:54:04.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-02T13:53:11.681</Modified>
+      <Modified>2018-10-24T16:54:04.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-02T13:53:11.681</Modified>
+      <Modified>2018-10-24T16:54:04.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-02T13:53:11.681</Modified>
+      <Modified>2018-10-24T16:54:04.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-02T13:53:11.681</Modified>
+      <Modified>2018-10-24T16:54:04.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-02T13:53:11.681</Modified>
+      <Modified>2018-10-24T16:54:04.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-02T13:53:11.681</Modified>
+      <Modified>2018-10-24T16:54:04.238</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\ASM.xr.xml">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\ASM.xr.xml">
       <PackagePath>ASM.xr.xml</PackagePath>
-      <Modified>2018-10-23T17:06:40.104</Modified>
+      <Modified>2018-10-24T19:47:39.926</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-23T17:10:32.342</Modified>
+      <Modified>2018-10-25T10:55:42.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Data\Openfile.xbf">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\Data\Openfile.xbf">
       <PackagePath>Data\Openfile.xbf</PackagePath>
-      <Modified>2018-10-23T17:10:32.343</Modified>
+      <Modified>2018-10-25T10:55:42.770</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-23T17:10:32.343</Modified>
+      <Modified>2018-10-25T10:55:42.770</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\ListViewDemo.xbf">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\Views\ListViewDemo.xbf">
       <PackagePath>Views\ListViewDemo.xbf</PackagePath>
-      <Modified>2018-10-23T17:10:32.344</Modified>
+      <Modified>2018-10-25T10:55:42.771</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\MenuPage.xbf">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\Views\MenuPage.xbf">
       <PackagePath>Views\MenuPage.xbf</PackagePath>
-      <Modified>2018-10-23T17:10:32.345</Modified>
+      <Modified>2018-10-25T10:55:42.772</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\MySong.xbf">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\Views\MySong.xbf">
       <PackagePath>Views\MySong.xbf</PackagePath>
-      <Modified>2018-10-23T17:10:32.345</Modified>
+      <Modified>2018-10-25T10:55:42.773</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\SignUp.xbf">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\Views\SignUp.xbf">
       <PackagePath>Views\SignUp.xbf</PackagePath>
-      <Modified>2018-10-23T17:10:32.346</Modified>
+      <Modified>2018-10-25T10:55:42.774</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Views\SongForm.xbf">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\Views\SongForm.xbf">
       <PackagePath>Views\SongForm.xbf</PackagePath>
-      <Modified>2018-10-23T17:10:32.347</Modified>
+      <Modified>2018-10-25T10:55:42.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T15:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-23T17:03:39.444</Modified>
+      <Modified>2018-10-24T16:58:01.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\ASM\ASM\bin\x64\Debug\Core\ASM.exe">
+    <AppxPackagedFile Include="C:\Users\HoANg HuNG\Desktop\New folder\Uwp\ASM\ASM\bin\x64\Debug\Core\ASM.exe">
       <PackagePath>ASM.exe</PackagePath>
-      <Modified>2018-10-23T17:10:33.233</Modified>
+      <Modified>2018-10-25T10:55:44.192</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

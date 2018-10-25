@@ -8586,11 +8586,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HoANg HuNG\\Desktop\\ASM\\ASM\\ASM.csproj",
+      "projectUniqueName": "C:\\Users\\HoANg HuNG\\Desktop\\New folder\\Uwp\\ASM\\ASM\\ASM.csproj",
       "projectName": "ASM",
-      "projectPath": "C:\\Users\\HoANg HuNG\\Desktop\\ASM\\ASM\\ASM.csproj",
+      "projectPath": "C:\\Users\\HoANg HuNG\\Desktop\\New folder\\Uwp\\ASM\\ASM\\ASM.csproj",
       "packagesPath": "C:\\Users\\HoANg HuNG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HoANg HuNG\\Desktop\\ASM\\ASM\\obj\\",
+      "outputPath": "C:\\Users\\HoANg HuNG\\Desktop\\New folder\\Uwp\\ASM\\ASM\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

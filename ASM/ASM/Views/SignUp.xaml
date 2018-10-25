@@ -64,7 +64,7 @@
             <CalendarDatePicker x:Name="Birthday" DateChanged="Change_Birthday" Header="BirthDay" HorizontalAlignment="Left" VerticalAlignment="Top" Width="133"></CalendarDatePicker>
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
                 <Button x:Name="BtnSignup" Content="Sign Up" Click="Handle_Signup" Margin="0,0,20,0"/>
-                <Button x:Name="BtnReset" Content="Reset"/>
+                <Button x:Name="BtnReset" Content="Reset" Click="BtnReset_Click" />
             </StackPanel>
             <RelativePanel Margin="0,20,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <TextBlock FontSize="18" Text="If you already have an account."/>
